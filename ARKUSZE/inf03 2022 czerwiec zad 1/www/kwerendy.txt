@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT ryby.id, ryby.nazwa, ryby.wystepowanie FROM ryby WHERE ryby.styl_zycia = 1;
+Zapytanie 2: SELECT okres_ochronny.Ryby_id, okres_ochronny.wymiar_ochronny FROM okres_ochronny WHERE wymiar_ochronny < 30;
+Zapytanie 3: SELECT ryby.nazwa, lowisko.akwen, lowisko.wojewodztwo FROM ryby, lowisko WHERE ryby.id = lowisko.Ryby_id AND lowisko.rodzaj = 3;
+Zapytanie 4: ALTER TABLE ryby ADD dobowy_limit int(255);

@@ -1,0 +1,4 @@
+insert into filmy values (null, 5, '', 'Suburbicon', '2017', 5);
+select filmy.tytul, gatunki.nazwa from filmy, gatunki where filmy.gatunki_id = gatunki.id and filmy.ocena = 6;
+select tytul, rok from filmy where gatunki_id = 3 and ocena = 5;
+create table aktorzy (id int not null primary key, imie text, nazwisko text);

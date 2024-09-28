@@ -1,0 +1,4 @@
+select tytul, rok, ocena from filmy where gatunki_id = 5;
+select filmy.id, filmy.tytul, rezyserzy.imie, rezyserzy.nazwisko from filmy, rezyserzy where rezyserzy.id = filmy.rezyserzy_id;
+select id, tytul from filmy where rok = '2017' and ocena = 6;
+update rezyserzy set imie = 'Francis Ford' where id = 8;

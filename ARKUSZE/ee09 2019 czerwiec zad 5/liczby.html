@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<link rel='stylesheet' href='styl2.css'>
+	<title>Ciągi liczbowe</title>
+</head>
+<body>
+	<div id='baner1'>
+		<h2>Poznaj Ciągi Liczbowe</h2>
+	</div>
+	<div id='baner2'>
+		<a href='liczby.html'><h5>Ciągi arytmetyczne</h5></a>
+	</div>
+	<div id='baner3'>
+		<a href='fib.html'><h5>Ciąg Fibonacciego</h5></a>
+	</div>
+	<div id='baner4'>
+		<img src='obraz1.png' alt='Fibonacci'>
+	</div>
+	<div class='clear'></div>
+	<div id='lewy'>
+		<ol>
+			<li>ciągi arytmetyczne</li>
+			<li>ciągi geometryczne</li>
+			<li>ciąg Fibonacciego</li>
+		</ol>
+	</div>
+	<div id='prawy'>
+	
+		<h2>Generowanie ciągu arytmetycznego</h2>
+		<form>
+			<label for='numer1'>Pierwszy wyraz A1: </label>
+			<input type='number' id='numer1' name='numer1'>
+			<br>
+			<label for='roznica'>Różnica ciągu R: </label>
+			<input type='number' id='roznica' name='roznica'>
+			<br>
+			<label for='wyrazow'>Liczba wyrazów w ciągu N: </label>
+			<input type='number' id='wyrazow' name='wyrazow'>
+			<br>
+		</form>
+		<button onclick='generujCiag()'>Generuj Ciąg</button>
+		<div id='wynik'></div>
+	</div>
+	<div id='stopka'>
+		<p>Autor: 00000000000</p>
+	</div>
+	<script src='skrypt.js'></script>
+</body>
+</html>

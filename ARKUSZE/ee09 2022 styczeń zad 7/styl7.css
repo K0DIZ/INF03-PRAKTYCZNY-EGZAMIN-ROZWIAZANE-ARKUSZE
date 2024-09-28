@@ -1,0 +1,44 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+#baner, #stopka {
+	background-color: rgb(70, 130, 180);
+	color: white;
+	height: 30px;
+	text-align: center;
+}
+#glowny {
+	background-color: rgb(176, 196, 222);
+	padding: 50px;
+	text-align: center;
+}
+#lewy {
+	background-color: rgb(70, 130, 180);
+	color: white;
+	height: 300px;
+	width: 80%;
+	float: left;
+}
+#prawy {
+	background-color: rgb(70, 130, 180);
+	color: white;
+	height: 300px;
+	width: 20%;
+	float: left;
+}
+#glowny img {
+	padding: 3px;
+	border: 1px dashed blue;
+	border-radius: 10px;
+}
+#lewy img {
+	height: 40%;
+}
+#lewy img:hover {
+	border: 1px solid white;
+}
+#stopka {
+	clear: both;
+}

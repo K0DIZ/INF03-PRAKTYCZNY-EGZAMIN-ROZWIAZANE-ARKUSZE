@@ -1,0 +1,4 @@
+select id, imie, nazwisko, rok_urodzenia, zdjecie from osoby limit 30;
+select imie, nazwisko, rok_urodzenia, opis, zdjecie, nazwa from osoby, hobby where osoby.Hobby_id = hobby.id and osoby.id = 10;
+select avg(rok_urodzenia), max(rok_urodzenia), min(rok_urodzenia) from osoby;
+update osoby set opis = 'Jakis opis tego typu' where Hobby_id = 4;

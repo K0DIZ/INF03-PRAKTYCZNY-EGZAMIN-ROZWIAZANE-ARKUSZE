@@ -1,0 +1,9 @@
+select materialy.nazwa,  materialy.ilosc, producenci.nazwaProd from materialy, producenci where materialy.Producenci_id = producenci.id and materialy.ilosc > 9;
+
+select materialy.nazwa, producenci.nazwaProd, jednostki.nazwaJedn from materialy, producenci, jednostki where materialy.Producenci_id = producenci.id and materialy.Jednostki_id = jednostki.id;
+
+create user 'zaopatrzenie'@'localhost' identified  by 'Z@op@trzenie';
+
+grant select, update, insert, delete on firma.* to zaopatrzenie;
+
+show grants for 'zaopatrzenie'@'localhost';

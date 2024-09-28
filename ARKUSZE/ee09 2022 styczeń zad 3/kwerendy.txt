@@ -1,0 +1,4 @@
+insert into ratownicy values (NULL, 20, "Adam Nowak", "Jan Kowalski", "Anna Nowakowska");
+select id, adres, ratownicy_id from zgloszenia where dyspozytorzy_id = 4;
+create user 'adam' identified by "Adam6&";
+grant create, update, delete on ratownicy to 'adam';

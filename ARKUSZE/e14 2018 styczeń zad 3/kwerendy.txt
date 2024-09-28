@@ -1,0 +1,4 @@
+insert into ogloszenie values (NULL, 1, 2, 0, 'Celine Dion', 'Sprzedam CD piosenkarki');
+select tytul, tresc from ogloszenie where kategoria = 1 and podkategoria = 13;
+create user 'andrzej'@'localhost' identified by 'xsw23';
+grant select, alter on ogloszenie to 'andrzej'@'localhost';

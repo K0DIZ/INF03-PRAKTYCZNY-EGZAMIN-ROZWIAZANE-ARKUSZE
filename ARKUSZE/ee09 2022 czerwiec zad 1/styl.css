@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: Garamond sans-serif;
+}
+#baner {
+    background: linear-gradient(to bottom, #97b498, #c8e6c9);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+#lewy {
+    background-color: #c8e6c9;
+    color: #005005;
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+#prawy {
+    color: #005005;
+    width: 60%;
+    height: 600px;
+    overflow: scroll;
+    /* WAŻNE */
+    float: left;
+}
+#stopka {
+    background: linear-gradient(to bottom, #c8e6c9, #97b498);
+    color: white;
+    padding: 12px;
+    clear: both;
+}
+video {
+    width: 100%;
+}
+form {
+    padding: 10px 50px;
+}
+#submit {
+    background-color: #97b498;
+    color: white;
+}
+#submit:hover {
+    background-color: white;
+    color: #97b498;
+}

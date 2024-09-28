@@ -1,0 +1,50 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+#baner {
+	background-color:  #00839C;
+	color: white;
+	font-family: Tahoma;
+	text-align: center;
+	height: 80px;
+}
+#lewy {
+	background-color:  #20D9FB;
+	width: 30%;
+	height: 750px;
+	float: left;
+}
+#prawy {
+	background-color:  #00BDE2;
+	width: 70%;
+	height: 750px;
+	float: left;
+}
+#stopka {
+	background-color:  #00839C;
+	color: white;
+	text-align: right;
+	clear: both;
+}
+img {
+	padding: 30px;
+	border: 2px solid blue;
+}
+a {
+	color: black;
+	display: block;
+}
+a:active, a:hover {
+	color: white;
+}
+input, label {
+	display: block;
+}
+input[type=submit], input[type=reset] {
+	background-color: blue;
+	color: white;
+	border: none;
+	margin: 20px;
+	display: inline-block;
+}

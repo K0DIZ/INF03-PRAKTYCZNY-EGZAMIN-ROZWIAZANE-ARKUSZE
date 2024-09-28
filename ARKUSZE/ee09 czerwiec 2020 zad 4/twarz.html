@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Usługi kosmetyczne</title>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+        <div id="lewy1">
+            <h2>W ofercie</h2>
+            <ul>
+                <li>
+                    <a href="twarz.html">Zabiegi na twarz</a>
+                    <ol>
+                        <li>Pilling</li>
+                        <li>Maska</li>
+                        <li>Regulacja brwi</li>
+                    </ol>
+                </li>
+                <li>Masaż</li>
+                <li>Diety oczyszczające</li>
+            </ul>
+            <a href="index.html">Do strony głównej</a>
+        </div>
+        <div id="prawy1">
+            <h1>Salon Kosmetyczny</h1>
+        </div>
+        <div id="prawy2">
+            <h2>Sprawdź cenę swojej wizyty</h2>
+            <form>
+                <input type="checkbox" id="piling">
+                <label for="piling">Piling</label>
+                <br>
+                <input type="checkbox" id="maska">
+                <label for="maska">Maska</label>
+                <br>
+                <input type="checkbox" id="masaz_twarzy">
+                <label for="masaz_twarzy">Masaż twarzy</label>
+                <br>
+                <input type="checkbox" id="regulacja_brwi">
+                <label for="regulacja_brwi">Regulacja brwi</label> 
+                <br>
+                <input type="button" value="Sprawdź cenę" onclick="sumaZabiegow()">
+            </form>
+            <p id="wynik">adsad</p>
+        </div>
+        <div id="lewy2">
+            <img src="obraz1.png" alt="Kosmetyczka">
+        </div>
+        <div id="stopka">
+            <p>Autor: 00000000000</p>
+        </div>
+        <script src="skrypt.js"></script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Dodaj ogłoszenie</title>
+	<link rel='stylesheet' href='styl3.css'>
+</head>
+<body>
+	<div id='baner'>
+		<h2>Portal Ogłoszeniowy</h2>
+	</div>
+	<div id='lewy'>
+		<h2>Kategorie</h2>
+		<ol>
+			<li>Książki</li>
+			<li>Muzyka</li>
+			<li>Filmy</li>
+		</ol>
+		<h2>Podkategorie</h2>
+		<ol>
+			<li>Romans</li>
+			<li>Biografia</li>
+			<li>Kryminał</li>
+			<li>Komiks</li>
+		</ol>
+		<img src='ksiazki.jpg' alt='Dodaj ogłoszenie'>
+		<a href='kwerendy.txt'>Pobierz kwerendy</a>
+	</div>
+	<div id='prawy'>
+		<h2>Anna Kowalska - dodaj ogłoszenia</h2>
+		<form method='post' action='dodajRekord.php'>
+			<label for='kategoria'>Kategoria</label>
+			<input type='number' id='kategoria' name='kategoria'>
+			
+			<label for='podkategoria'>Podkategoria</label>
+			<input type='number' id='podkategoria' name='podkategoria'>
+			
+			<label for='tytul'>Tytuł</label>
+			<input type='text' id='tytul' name='tytul'>
+			
+			<label for='tresc'>Treść</label>
+			<textarea id='tresc' name='tresc' cols=40 rows=10></textarea>
+			<br>
+			<input type='reset' value='WYCZYŚĆ'>
+			<input type='submit' value='ZAPISZ'>
+		</form>
+	</div>
+	<div id='stopka'>
+		Portal ogłoszeniowy opracował: 00000000000
+	</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Georgia;
+}
+#logo, #menu {
+	background-color: #63AC74;
+	color: Orange;
+	height: 140px;
+	width: 50%;
+	text-align: right;
+	font-size: 160%;
+	float: left;
+}
+#glowny {
+	background-color: #e3f6e7;
+	height: 500px;
+	padding: 20px;
+}
+#stopka1, #stopka2, #stopka3, #stopka4 {
+	background-color: #63AC74;
+	height: 150px;
+	width: 25%;
+	float: left;
+}
+a {
+	color: orange;
+	margin: 15px;
+}
+table {
+	width: 100%;
+	border: 2px solid green;
+}
+th {
+	color: white;
+	background-color: #63AC74;
+}
+.td_prawa {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}

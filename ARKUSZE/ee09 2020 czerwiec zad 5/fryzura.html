@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Usługi fryzjerskie</title>
+        <link rel="stylesheet" href="styl2.css">
+    </head>
+    <body>
+        <div id="lewy1">
+            <h2><a href="index.html">SALON FRYZJERSKI</a></h2>
+            <img src="obraz2.png" alt="Czesanie">
+        </div>
+        <div id="prawy1">
+            <h2>MENU</h2>
+        </div>
+        <div id="prawy2">
+            <ol>
+                <li>
+                    <a href="fryzura.html">Strzyżenie</a>
+                    <ul>
+                        <li>krótkie</li>
+                        <li>średnie</li>
+                        <li>półdługie</li>
+                        <li>długie</li>
+                    </ul>
+                </li>
+                <li>Czesanie</li>
+                <li>Koloryzacja</li>
+            </ol>
+        </div>
+        <div id="lewy2">
+            <h3>Dziś promocja na strzyżenie włosów</h3>
+            <form>
+                <input type="radio" id="krotkie" value="krotkie" name="radio1">
+                <label for="krotkie">Krótkie</label>
+                <br>
+                <input type="radio" id="srednie" value="srednie" name="radio1">
+                <label for="srednie">Średnie</label>
+                <br>
+                <input type="radio" id="poldlugie" value="poldlugie" name="radio1">
+                <label for="poldlugie">Półdługie</label>
+                <br>
+                <input type="radio" id="dlugie" value="dlugie" name="radio1">
+                <label for="dlugie">Długie</label>
+                <br>
+                <input type="button" id="przycisk" value="Odkryj promocję" onclick="oblicz()">
+            </form>
+            <p id="wynik"></p>
+        </div>
+        <div id="prawy3">
+            <img src="obraz1.png" alt="Fryzjer">
+        </div>
+        <div id="stopka">
+            <p>Autor: 00000000000</p>
+        </div>
+        <script src="skrypt.js"></script>
+    </body>
+</html>

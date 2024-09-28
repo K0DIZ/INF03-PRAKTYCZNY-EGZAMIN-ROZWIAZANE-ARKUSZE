@@ -1,0 +1,4 @@
+select id, dataWyjazdu, cel, cena from wycieczki where dostepna = TRUE;
+select nazwaPliku, podpis from zdjecia order by podpis asc;
+select zdjecia.nazwaPliku, wycieczki.cel FROM zdjecia, wycieczki where zdjecia.id = wycieczki.zdjecia_id and wycieczki.cena < 1000;
+alter table wycieczki add dataPrzyjazdu date after dataWyjazdu;

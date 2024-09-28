@@ -1,0 +1,4 @@
+select imie, nazwisko from autorzy;
+insert into czytelnicy values (null, 'Anna', 'Michalak', 'ANMI05');
+select tytul from ksiazki where id_kategoria = 1;
+select ksiazki.tytul from ksiazki, wypozyczenia where wypozyczenia.id_ksiazka = ksiazki.id and wypozyczenia.id_czytelnik = 3;

@@ -1,0 +1,4 @@
+select nazwa, miasto from lokale;
+select id, nazwa, cena from dania where typ = 3;
+select min(cena) as min_cena from dania where typ = 2;
+update lokale set numer = 123 where id = 1;

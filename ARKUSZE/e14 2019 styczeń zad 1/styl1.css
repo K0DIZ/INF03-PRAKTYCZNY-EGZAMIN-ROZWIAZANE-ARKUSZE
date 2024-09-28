@@ -1,0 +1,48 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+#lewy {
+	background-color: Navy;
+	color: white;
+	height: 700px;
+	width: 25%;
+	float: left;
+}
+#prawy1 {
+	background-color: RoyalBlue;
+	height: 100px;
+	width: 75%;
+	text-align: center;
+	float: right;
+}
+#prawy2 {
+	background-color: SteelBlue;
+	height: 300px;
+	width: 75%;
+	float: right;
+}
+#prawy3 {
+	background-color: RoyalBlue;
+	height: 300px;
+	width: 75%;
+	text-align: center;
+	float: right;
+}
+#stopka {
+	background-color: SteelBlue;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+h1 {
+	line-height: 5px;
+}
+form {
+	margin: 30px;
+	line-height: 3;
+}
+form:hover {
+	background-color: DeepSkyBlue;
+}

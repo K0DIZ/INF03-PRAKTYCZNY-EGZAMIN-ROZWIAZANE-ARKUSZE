@@ -1,0 +1,4 @@
+select id, nazwa, opis, cena from podzespoly where cena < 1000;
+select nazwa, opis from podzespoly where dostepnosc = 1 and producenci_id = 1;
+select podzespoly.nazwa, producenci.nazwa from podzespoly, producenci where producenci.id = podzespoly.producenci_id;
+update producenci set nazwa = 'PATRIOT' where nazwa = 'Patriot';

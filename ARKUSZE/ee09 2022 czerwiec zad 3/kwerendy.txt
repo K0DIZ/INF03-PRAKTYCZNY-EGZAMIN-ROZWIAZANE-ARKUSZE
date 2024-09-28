@@ -1,0 +1,4 @@
+select imie, nazwisko, punkty from klienci order by punkty desc limit 3;
+select typy.nazwa, count(klienci.id) from typy, klienci where typy.id = klienci.typy_id group by typy.nazwa;
+select klienci.zdjecie, klienci.imie, opinie.opinia from klienci, opinie, typy where klienci.id = opinie.klienci_id and typy.id = klienci.typy_id and typy.id in (2, 3);
+alter table klienci add adres varchar(50); 

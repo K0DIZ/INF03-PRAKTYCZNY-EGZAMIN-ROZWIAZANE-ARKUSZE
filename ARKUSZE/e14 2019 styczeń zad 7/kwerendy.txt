@@ -1,0 +1,5 @@
+select nazwa, opis, cena from podzespoly where typy_id = 1;
+select id, nazwa from podzespoly where dostepnosc = 1 and cena < 400;
+select podzespoly.nazwa, typy.kategoria from typy, podzespoly where podzespoly.typy_id = typy.id and typy.id = 1;
+alter table typy add column opis text;
+

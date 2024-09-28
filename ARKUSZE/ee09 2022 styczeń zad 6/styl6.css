@@ -1,0 +1,47 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Georgia;
+}
+#lewy {
+	background-color: Maroon;
+	color: white;
+	height: 600px;
+	width: 30%;
+	float: left;
+}
+#prawy {
+	background-color: Maroon;
+	color: white;
+	height: 600px;
+	width: 70%;
+	float: left;
+	overflow: auto;
+}
+#stopka {
+	background-color: dimgray;
+	color: white;
+	clear: both;
+}
+#prawy img, #prawy ul {
+	float: left;
+}
+#prawy p {
+	clear: both;
+}
+p {
+	padding: 10px;
+}
+img {
+	padding: 10px;
+	border: 1px solid white;
+}
+#Indigo {
+	background-color: Indigo;
+}
+#SteelBlue {
+	background-color: SteelBlue;
+}
+#Olive {
+	background-color: Olive;
+}

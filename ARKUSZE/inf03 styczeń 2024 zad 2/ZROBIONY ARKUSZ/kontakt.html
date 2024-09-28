@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Komputery</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<script src="skrypt.js"></script>
+<body>
+    <div id="container">
+        <div id="baner">
+            <img src="animacja.gif" alt="Pogotowie komputerowe">
+        </div>
+        <div id="menu">
+            <a href="index.html">Strona Główna</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div id="glowny-1">
+        </div>
+        <div id="glowny-2">
+            <h2>Kontakt</h2>
+            <form action="javascript:;" onsubmit="kontakt()"> 
+                <table>
+                    <tr>
+                        <td>Imię: </td>
+                        <td>
+                            <input type="text" id="imie" name="imie">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nazwisko: </td>
+                        <td>
+                            <input type="text" id="nazwisko" name="nazwisko">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td>
+                            <input type="email" id="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Zgłoszenie: </td>
+                        <td>
+                            <select id="zgloszenie" name="zgloszenie">
+                                <option value="naprawa komputerów">naprawa komputerów</option>
+                                <option value="odzyskiwanie danych">odzyskiwanie danych</option>
+                                <option value="wirusy">wirusy</option>
+                                <option value="konfiguracja LAN">konfiguracja LAN</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                        <input type="checkbox" checked id="checkbox" name="checkbox">
+                        <label for="checkbox">Wyślij kopię wiadomości</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="reset" value="Czyść" name="reset" id="reset">
+                            <input type="submit" value="Wyślij">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div id="wynik_skryptu"></div>
+        </div>
+        <div id="glowny-3">
+        </div>
+        <div id="stopka">
+            Autor: <i>00000000000</i>
+        </div>
+    </div>
+</body>
+</html>

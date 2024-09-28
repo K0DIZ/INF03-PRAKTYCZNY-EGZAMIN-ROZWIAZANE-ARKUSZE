@@ -1,0 +1,4 @@
+1. select nazwa, wystepowanie from ryby where styl_zycia = 1;
+2. select Ryby_id, wymiar_ochronny from Okres_ochronny WHERE wymiar_ochronny < 50;
+3. select Ryby.nazwa, Lowisko.akwen, Lowisko.wojewodztwo FROM Ryby, Lowisko where Ryby.id = Lowisko.Ryby_id and Lowisko.rodzaj = 2; 
+4. ALTER TABLE Ryby ADD dobowy_limit int;

@@ -1,0 +1,53 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+#baner {
+	background-color: #e8c84e;
+	height: 50px;
+	font-size: 130%;
+	text-align: center;
+}
+#lewy {
+	background-color: #ffb544;
+	height: 500px;
+	width: 40%;
+	font-size: 130%;
+	float: left;
+}
+#srodkowy {
+	height: 500px;
+	width: 30%;
+	font-size: 130%;
+	text-align: center;
+	float: left;
+}
+#prawy {
+	background-color: #ffb544;
+	height: 500px;
+	width: 30%;
+	font-size: 130%;
+	float: left;
+	text-align: center;
+}
+#stopka {
+	background-color: #e8c84e;
+	height: 50px;
+	padding: 10px;
+	clear: both;
+	text-align: right;
+}
+ul {
+	padding-top: 30px;
+	background-color: #ffaa00;
+}
+li {
+	padding-top: 30px;
+	background-color: #ffaa00;
+}
+img, h3 {
+	margin-top: 50px;
+}
+form {
+	margin-bottom: 100px;
+}

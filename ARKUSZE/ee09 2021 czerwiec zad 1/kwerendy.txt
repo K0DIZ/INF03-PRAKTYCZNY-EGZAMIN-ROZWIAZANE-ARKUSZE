@@ -1,0 +1,10 @@
+1. SELECT osoby.imie, osoby.nazwisko, osoby.opis, osoby.zdjecie FROM osoby, hobby WHERE osoby.hobby_id = hobby.id AND hobby.id IN (1,2,6);
+2. SELECT osoby.id, osoby.nazwisko, hobby.nazwa FROM osoby, hobby WHERE osoby.hobby_id = hobby.id AND osoby.rok_urodzenia > 2000;
+3. SELECT osoby.id, osoby.zdjecie FROM osoby WHERE osoby.imie = "Monika" LIMIT 5;
+4. CREATE TABLE wpisy (
+	id int unsigned not null auto_increment,
+	wpis varchar(255) null,
+	uzytkownik_id int unsigned not null,
+    PRIMARY KEY (id)
+);
+	

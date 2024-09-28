@@ -1,0 +1,45 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+#baner-lewy, #baner-srodkowy, #baner-prawy, #stopka-lewa, #stopka-srodkowa, #stopka-prawa {
+	background-color: saddlebrown;
+	color: white;
+	height: 100px;
+	float: left;
+}
+#baner-lewy, #stopka-lewa {
+	width: 55%;
+	font-size: 120%;
+}
+#baner-srodkowy, #stopka-srodkowa {
+	width: 25%;
+}
+#baner-prawy, #stopka-prawa {
+	width: 20%;
+	text-align: right;
+}
+#glowny {
+	background-color: snow;
+	padding: 70px;
+}
+a {
+	border: 2px dotted saddlebrown;
+	background-color: snow;
+	color: saddlebrown;
+	padding: 20px;
+	line-height: 100px;
+}
+ol {
+	list-style-type: lower-alpha;
+}
+.clear {
+	clear: both;
+}
+input, label {
+	display: block;
+}
+input[type='reset'], input[type='submit'] {
+	display: inline;
+}

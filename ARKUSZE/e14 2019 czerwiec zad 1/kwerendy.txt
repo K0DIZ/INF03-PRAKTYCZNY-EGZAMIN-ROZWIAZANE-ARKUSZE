@@ -1,0 +1,4 @@
+select nazwa from towary where promocja = 1;
+select cena from towary where nazwa = 'cienkopis';
+select dostawcy.nazwa, count(towary.id) as ilosc from towary, dostawcy where dostawcy.id = towary.idDostawcy group by dostawcy.nazwa;
+alter table dostawcy add e_mail text;

@@ -1,0 +1,4 @@
+select haslo from uzytkownicy where login = 'Justyna';
+select count(id) from dane;
+select uzytkownicy.login, dane.rok_urodz, dane.przyjaciol, dane.hobby, dane.zdjecie from uzytkownicy, dane where uzytkownicy.id = dane.id and uzytkownicy.login = 'Justyna';
+alter table dane add stanowisko text;

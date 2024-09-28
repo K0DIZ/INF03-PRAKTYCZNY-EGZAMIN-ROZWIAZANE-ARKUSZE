@@ -1,0 +1,4 @@
+select id, gatunek, wystepowanie from zwierzeta where Odzywianie_id = 4;
+select zwierzeta.gatunek, odzywianie.rodzaj from zwierzeta, odzywianie where zwierzeta.Odzywianie_id = odzywianie.id;
+select count(id) from zwierzeta where Odzywianie_id = 1;
+create user 'JanKowalski' identified by 'J4nKow';

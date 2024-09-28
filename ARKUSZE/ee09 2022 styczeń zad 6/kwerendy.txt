@@ -1,0 +1,4 @@
+create user 'Agnieszka' identified by 'haslo4';
+select avg(rocznik) from samochody where marka = 'opel';
+select samochody.marka, klienci.imie from samochody, wypozyczenia, klienci where samochody.id = wypozyczenia.samochody_id and wypozyczenia.klienci_id = klienci.id;
+alter table klasa drop column cena;

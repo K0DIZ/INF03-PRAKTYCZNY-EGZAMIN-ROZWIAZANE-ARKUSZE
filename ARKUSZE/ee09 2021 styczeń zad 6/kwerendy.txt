@@ -1,0 +1,4 @@
+select id, nr_rejsu, czas, kierunek, status_lotu from odloty order by czas desc;
+select min(czas) from odloty where czas between '10:10' and '10:19';
+select odloty.nr_rejsu, samoloty.linie from samoloty, odloty where samoloty.id = odloty.samoloty_id and odloty.kierunek = 'Malta';
+update przyloty set status_lotu = 'planowy' where nr_rejsu = 'LH9829';

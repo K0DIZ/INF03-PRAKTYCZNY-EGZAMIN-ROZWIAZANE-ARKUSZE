@@ -1,0 +1,4 @@
+select kierunek, czas from przyloty where status_lotu = '';
+select odloty.kierunek, odloty.dzien from odloty, samoloty where samoloty.id = odloty.samoloty_id and samoloty.typ = 'Boening 787';
+select nr_rejsu, kierunek from przyloty where nr_rejsu like '%LX%';
+update samoloty set linie = 'SWISS2' where linie = 'SWISS';

@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Garamond;
+}
+#baner1, #baner2, #baner3, #baner4 {
+	background-color: #790DB5;
+	color: orange;
+	height: 200px;
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+#lewy, #prawy {
+	background-color: #FFE6A3;
+	height: 500px;
+	width: 50%;
+	float: left;
+}
+#stopka {
+	background-color: #790DB5;
+	color: orange;
+	text-align: center;
+	padding: 30px;
+}
+form {
+	padding-top: 60px;
+}
+p {
+	font-size: 150%;
+}
+a {
+	color: yellow;
+}
+a:visited, a:active {
+	color: orange;
+}
+.clear {
+	clear: both;
+}

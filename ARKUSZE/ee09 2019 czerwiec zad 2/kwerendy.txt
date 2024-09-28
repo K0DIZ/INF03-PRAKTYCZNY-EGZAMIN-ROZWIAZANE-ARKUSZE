@@ -1,0 +1,4 @@
+1. select marka, model from samochody where kolor = "czerwony"; 
+2. update samochody set stan = "dobry" where rocznik = 2003;
+3. create user 'andrzej'@'localhost' identified by "andrzej1@";
+4. grant SELECT, INSERT on samochody to "andrzej";

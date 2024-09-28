@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #F6E5DC;
+    font-family: Verdana;
+}
+#baner {
+    background-color: #2F180C;
+    text-align: center;
+    color: khaki;
+    height: 60px;
+}
+
+img {
+    height: 350px;
+}
+#blok_lewy {
+    width: 60%;
+    float: left;
+}
+#blok_prawy {
+    font-size: 150%;
+    padding: 70px;
+}
+#blok_dolny {
+    background-color: #D0B6A8;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+h2 {
+    background-color: #D0B6A8;
+}
+.przycisk {
+    background-color: #2F180C;
+    color: khaki;
+    margin: 10px;
+    padding: 5px;
+}
+#stopka {
+    background-color: #2F180C;
+    color: khaki;
+    height: 60px;
+}

@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+}
+#gorny-lewy, #gorny-prawy {
+    background-color: rosybrown;
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+#gorny-srodkowy {
+    background-color: rosybrown;
+    color: white;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+#glowny {
+    background-color: wheat;
+    padding: 50px;
+    clear: both;
+}
+#stopka {
+    background-color: rosybrown;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+a {
+    border: 2px solid darkred;
+    background-color: salmon;
+    color: darkred;
+    padding: 20px;
+    line-height: 200px;
+}
+input, label {
+    display: block;
+}
+input[type=reset], input[type=submit] {
+    display: inline;
+}

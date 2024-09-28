@@ -1,0 +1,4 @@
+select gatunek, obraz from zwierzeta where Gromady_id = 4;
+select id, Gromady_id, gatunek, wystepowanie from Zwierzeta where Gromady_id = 4 or Gromady_id = 5;
+select Zwierzeta.gatunek, Odzywianie.id, Odzywianie.rodzaj from Zwierzeta, Odzywianie where Zwierzeta.Odzywianie_id = Odzywianie.id;
+alter table Odzywianie drop column informacja;

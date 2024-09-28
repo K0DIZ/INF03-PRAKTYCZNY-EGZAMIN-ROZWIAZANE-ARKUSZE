@@ -1,0 +1,4 @@
+1. SELECT zespol1, zespol2, wynik, data_rozgrywki FROM rozgrywka WHERE zespol1 = "EVG";
+2. SELECT zawodnik.imie, zawodnik.nazwisko FROM zawodnik, pozycja WHERE zawodnik.pozycja_id = pozycja.id AND pozycja.id = 3;
+3. SELECT zawodnik.id, zawodnik.nazwisko, pozycja.nazwa FROM zawodnik, pozycja WHERE zawodnik.pozycja_id = pozycja.id AND zawodnik.id IN (1, 2, 3);
+4. DROP TABLE liga;
